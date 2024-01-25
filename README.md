@@ -1,7 +1,7 @@
-#Chinese Auction Smart Contract
+# Chinese Auction Smart Contract
 This repository contains the implementation of a Chinese auction smart contract in Solidity. The smart contract allows users to participate in token-based auctions on the Ethereum blockchain.
 
-##Contract Structure
+## Contract Structure
 The smart contract is structured using four primary data structures:
 
 1. **Item**: Encapsulates information about an auction item, including its unique identifier and the tokens bid for the item.
@@ -12,7 +12,7 @@ The smart contract is structured using four primary data structures:
 
 4. **bidders**: An array that holds Person objects representing registered bidders.
 
-##Contract Functionality
+## Contract Functionality
 The smart contract provides three main functionalities:
 
 1. **Registration**: Allows users to register as bidders, assigning a unique person ID and an initial token balance of 5 tokens.
@@ -21,7 +21,7 @@ The smart contract provides three main functionalities:
 
 3. **Revealing Winners**: Determines the winners of each auction item by randomly selecting a token ID from the item's token list. The corresponding bidder's address is stored in the winners array.
 
-##Testing
+## Testing
 To ensure the contract's functionality, testing is crucial. The Remix JavaScript VM provides a suitable environment for testing the smart contract. Here's a step-by-step guide:
 
 1. Compile and deploy the contract to the Remix VM.
@@ -34,16 +34,13 @@ To ensure the contract's functionality, testing is crucial. The Remix JavaScript
 
 5. Retrieve the winners' addresses using the "winners" getter.
 
-##Reference
+## Reference
 For a more detailed explanation of the smart contract implementation, please refer to the following Medium article:
 
 [Medium Article Source](https://medium.com/coinmonks/building-a-chinese-auction-smart-contract-with-solidity-and-remix-ide-8b242fbcaf3b)
 
-##Contributing
+## Contributing
 Contributions are welcome! Please feel free to open an issue or submit a pull request for any changes or improvements.
 
-##Changelog
-- v1.0.0: Initial release
-
-##License
+## License
 MIT License
