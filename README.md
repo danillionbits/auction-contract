@@ -36,8 +36,7 @@ To ensure the contract's functionality, testing is crucial. The Remix JavaScript
 
 ## Reference
 For a more detailed explanation of the smart contract implementation, please refer to the following Medium article:
-
-[Medium Article Source](https://medium.com/coinmonks/building-a-chinese-auction-smart-contract-with-solidity-and-remix-ide-8b242fbcaf3b)
+[Link to Medium article](https://medium.com/coinmonks/building-a-chinese-auction-smart-contract-with-solidity-and-remix-ide-8b242fbcaf3b)
 
 ## Contributing
 Contributions are welcome! Please feel free to open an issue or submit a pull request for any changes or improvements.
